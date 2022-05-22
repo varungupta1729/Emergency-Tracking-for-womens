@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Media Recorder in Javascript</title>
+    <link rel="stylesheet" href="track.css" />
+  </head>
+  <body>
+    <div id="section">
+      <video autoplay loop muted plays-inline class="hii" height="1000" width="500
+      " >
+          <source src="location_tracker.mp4" type="video/mp4">
+      </video>
+    </div>
+    <h1 class="header" > YOU ARE TRACKING!!!</h1>
+    <div id="container">
+      <video id="gum" playsinline autoplay muted></video>
+      <video id="recorded" playsinline loop></video>
+
+
+      <div>
+        <button id="start">Start camera</button>
+        <button id="record" disabled>Record</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download</button>
+      </div>
+
+      <div>
+        <h4>Media Stream Constraints options</h4>
+        <p>
+          Echo cancellation: <input type="checkbox" id="echoCancellation" />
+        </p>
+      </div>
+
+      <div>
+        <span id="errorMsg"></span>
+      </div>
+    </div>
+       
+    
+    </div>
+    <script src="on off.js"></script>
+  </body>
+  <script src="track.js"></script>
+</html>

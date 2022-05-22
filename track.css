@@ -1,0 +1,69 @@
+
+body{
+   
+    
+    z-index: -1;
+    opacity: 0.9;
+    background : url(location_tracker.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+ width: fit-content;
+    width: auto;
+    height: auto;
+}
+h1{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: xx-large;
+font-style: italic;
+font-weight: 700;
+
+}
+button {
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid #bde0eb;
+    border-radius: 10px;
+    font-size: 18px;
+    background  :rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+
+    
+  }
+  .button:last-of-type {
+    margin: 0;
+  }
+  
+  p.borderBelow {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+  
+  video{
+    vertical-align: center;
+    --width: 30vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.56);
+  }
+  
+  video:last-of-type {
+    margin: 2px;
+
+  }
+  
+  video#gumVideo {
+    margin: 0 20px 20px 0;
+  }
+  .section{
+      position: relative;
+      width: 100%;
+  }
+  
+
+
